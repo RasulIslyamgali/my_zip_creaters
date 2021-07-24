@@ -21,6 +21,7 @@ folder_for_save = r''
 name_to_zip_file = folder_for_save + os.sep + time.strftime('%Y%m%d%H%M%S') + '.zip'
 
 # создаем zip команду
+# если убрать параметр r, то при архивации не будут сохранены подкаталоги папок
 zip_command = "zip -qr {0} {1}".format(name_to_zip_file, " ".join(my_files))
 
 if __name__ == '__main__':
