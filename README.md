@@ -4,6 +4,8 @@
 
 zip_creater_module_zipfile.py была создана лишь для ознакомительных целей, чтобы читатели знали, что zip можно создать и встроенным модулем.
 
+Текст внизу касается лишь my_zip_creater.py
+
 Возможно кому то будет интересна и полезна.
 
 Ссылка для скачивания пакета для выполнения zip команды:
@@ -18,7 +20,12 @@ http://gnuwin32.sourceforge.net/downlinks/zip.php
 Они указаны в комментариях.
 
 
-Created a simple zip archiver while reading the book A byte of python.
+Created a simple zip archiver (my_zip_creater.py) while reading book A byte of python.
+
+zip_creater_module_zipfile.py was created for informational purposes only, so that readers know that zip can be created by inline module too.
+
+The text below only concerns my_zip_creater.py
+
 Perhaps it will be interesting and useful to someone.
 
 Link to download the package for executing the zip command:
